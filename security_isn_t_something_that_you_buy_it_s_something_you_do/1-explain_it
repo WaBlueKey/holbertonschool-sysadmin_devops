@@ -1,0 +1,5 @@
+On my first day on the job, I have to set up servers for employees to connect to using SSH.
+
+I need to generate the SSH keys. Depending on the type of SSH requirement, you would use the command ssh-keygen as a minimum. You may have to use a more detailed command such as ssh-keygen -t rsa -b 4096 -C "your_email@address.com"
+The public key is copied to the server. It can be shared with anyone. It is used to verify  your identity and signature when interacting with the serve. It will allow you to log into the server to use it as a trusted user.
+The private key must be saved on your computer in a very secure file that is not easily found or accessed by everyone. It is used to send a unique signature to be recognized by the public key identifying the user as a trusted user.  The private key will perform an operation that can confirm to the public key that it exists and is the correct one. 
