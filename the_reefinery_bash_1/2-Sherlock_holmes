@@ -1,0 +1,3 @@
+#!/bin/bash
+grep "ma" /etc/passwd
+grep "false" /etc/passwd | grep -v "empty"
