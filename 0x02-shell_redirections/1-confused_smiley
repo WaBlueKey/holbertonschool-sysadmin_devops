@@ -1,3 +1,2 @@
 #!/bin/bash
-variable='"(Ôo)'\'
-echo $variable
+echo '"(Ôo)'\'
